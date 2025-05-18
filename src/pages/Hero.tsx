@@ -30,7 +30,7 @@ const Hero = () => {
         {/* Start Button Animation */}
        <motion.button
   onClick={handleStart}
-  className="relative px-8 py-3 mt-[-18rem] rounded-xl
+  className="relative px-8 py-3 mt-[-10rem] sm:mt-[-18rem]  rounded-xl
              text-white text-lg
              bg-transparent
              outline-none focus:ring-2 focus:ring-pink-400/20
@@ -70,7 +70,7 @@ const Hero = () => {
 
         {/* Tagline Animation */}
         <motion.p
-          className="mt-10 text-lg md:text-xl text-white/80 max-w-xl"
+          className="mt-12 text-lg md:text-xl text-white/80 max-w-xl"
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 1, duration: 0.8, ease: 'easeOut' }}
