@@ -169,9 +169,9 @@ const QuestionCard: React.FC<QuestionCardProps> = ({
         {question.options.map((option, index) => {
           // Define option colors based on index
           const optionColors = [
-            'from-trivify-green/20 to-trivify-green/10 border-trivify-green/30',
-            'from-trivify-yellow/20 to-trivify-yellow/10 border-trivify-yellow/30',
-            'from-trivify-red/20 to-trivify-red/10 border-trivify-red/30',
+            'from-trivify-blue/20 to-trivify-blue/10 border-trivify-blue/30',
+            'from-trivify-blue/20 to-trivify-blue/10 border-trivify-blue/30',
+            'from-trivify-blue/20 to-trivify-blue/10 border-trivify-blue/30',
             'from-trivify-blue/20 to-trivify-blue/10 border-trivify-blue/30'
           ];
           
